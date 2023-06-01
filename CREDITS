@@ -1,0 +1,15 @@
+	This is at least a partial credits-file of people that have
+	contributed to this project.  It is sorted by name and
+	formatted to allow easy grepping and beautification by
+	scripts.  The fields are: name (N), email (E), web-address
+	(W), PGP key ID and fingerprint (P), description (D), and
+	snail-mail address (S).
+----------
+
+N: Steve Friedl
+E: steve@unixwiz.net
+W: http://www.unixwiz.net/
+P: 1024D/DCFFC70D 0581519A94FC13BD7543E0B75D07F811DCFFC70D
+D: Author of nbtscan from unixwiz.net
+S: Orange County, California
+S: USA
