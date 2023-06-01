@@ -12,9 +12,13 @@
 #include "nbtdefs.h"
 
 const char Version[] =
-"nbtscan 1.0.35 - 2008-04-08 - http://www.unixwiz.net/tools/";
+"nbtscan 1.0.36 - 2023-06-01 - https://github.com/joshcangit/nbtscan-unixwiz";
 
 /*
+Tue Jun  1 09:36:08 PDT 2023 -- version 1.0.36
+- changed usleep to nanosleep (sleep_msecs.c)
+- for Linux, define socklen_t size_t (penlib.h)
+
 Tue Apr  8 16:24:16 PDT 2008 -- version 1.0.35
 - added ZIP-file maker option (makefile only)
 

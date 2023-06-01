@@ -39,7 +39,10 @@ void __stdcall sleep_msecs(long msecs)
 
 #else
 
-	usleep(msecs * 1000);	/* microseconds! */
+	struct timespec ts;
+	ts.tv_sec = msecs / 1000000ul;            // whole seconds
+	ts.tv_nsec = (msecs % 1000000ul) * 1000;  // remainder, in nanoseconds
+	nanosleep(&ts, NULL);
 
 #endif
 }

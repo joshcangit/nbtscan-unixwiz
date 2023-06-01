@@ -124,6 +124,8 @@ extern wchar_t * __stdcall stripW(wchar_t *);
 /* for getsockopt() */
 #if ! defined(linux)
 #  define socklen_t int
+#else
+#  define socklen_t size_t
 #endif
 
 
